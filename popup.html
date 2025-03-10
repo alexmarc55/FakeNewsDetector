@@ -2,29 +2,12 @@
 <html>
 <head>
   <title>Analyze Page Data</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      width: 400px;
-      padding: 10px;
-    }
-    #collectedData {
-      margin-top: 10px;
-      font-size: 12px;
-      white-space: pre-wrap;
-      word-wrap: break-word;
-      background-color: #f4f4f4;
-      padding: 10px;
-      border-radius: 5px;
-      height: 150px;
-      overflow-y: scroll;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h2>News Data Analyzer</h2>
-  <button id="analyzeButton">Analyze</button>
-  <button id="clearDataButton">Clear Data</button>
+  <button id="analyzeButton" class="button-24">Analyze</button>
+  <button id="clearDataButton" class="button-24">Clear Data</button>
   <div id="collectedData">No data collected yet...</div>
 </body>
 <script src="popup.js"></script>
