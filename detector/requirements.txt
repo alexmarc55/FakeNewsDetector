@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+tensorflow[and-cuda]
+jupyter
+transformers
+tf_keras
